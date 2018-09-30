@@ -233,70 +233,47 @@
 ---
 
 #### 错误码
-- `("SYS000", "10000") SUCCESS`     
 
-- `("SYS001", "10001") FAILED`
+```
+("SYS000", "10000") SUCCESS
+("SYS001", "10001") FAILED
+("SYS006", "10006") DATA_ERROR       
+("SYS018", "10018") PARAMETER_ERROR     
+("SYS021", "20021") SIGNATURE_ERROR        
+("DATA004", "11000") VERIFICATION_FAILD  
+("DATA001", "11001") DATA_PARSE_ERROR        
+("ACT000", "50000") PASSWORD_IS_WRONG        
+("ACT001", "50001") ACCOUNT_NOT_EXIST        
+("ACT002", "50002")ACCOUNT_IS_ALREADY_ENCRYPTED
+("ACT003", "50003")ACCOUNT_EXIST        
+("ACT004", "50004")ADDRESS_ERROR         
+("ACT005", "50005") ALIAS_EXIST        
+("ACT006", "50006")ALIAS_NOT_EXIST         
+("ACT007", "50007") ACCOUNT_ALREADY_SET_ALIAS       
+("ACT008", "50008")PARAMETER_ERROR        
+("ACT009", "50009") DATA_PARSE_ERROR        
+("ACT010", "50010")SUCCESS         
+("ACT011", "50011") FAILED        
+("ACT012", "50012")INSUFFICIENT_BALANCE   
+("ACT013", "50013") ALIAS_ROLLBACK_ERROR      
+("ACT014", "50014") ACCOUNTKEYSTORE_FILE_NOT_EXIST      
+("ACT015", "50015") ACCOUNTKEYSTORE_FILE_DAMAGED       
+("ACT016", "50016") ALIAS_FORMAT_WRONG      
+("ACT017", "50017")PASSWORD_FORMAT_WRONG
 
-- `("SYS006", "10006") DATA_ERROR`        
+("LED001", "12001");UTXO is unable
+("LED002", "12002");UTXO status error
+("LED003", "12003");Lack of balance
+("LED004", "12004");Invalid input
+("LED005", "12005");Invalid input
+("LED006", "12006");Orphan transaction
+("LED007", "12007");Orphan block
+("LED008", "12008");Data not found
+("LED009", "12009");Tx fee is not right
+("LED0010", "120010");Rollback Transaction tx failed
+("LED0011", "120011");Transaction repeated
+("LED0012", "120012");The amount of the transfer is too small
+("LED0013", "120013");The transaction is too big
 
-- `("SYS018", "10018") PARAMETER_ERROR`       
-
-- `("SYS021", "20021") SIGNATURE_ERROR`        
-
-- `("DATA004", "11000") VERIFICATION_FAILD`  
-
-- `("DATA001", "11001") DATA_PARSE_ERROR`        
-
-- `("ACT000", "50000") PASSWORD_IS_WRONG`         
-
-- `("ACT001", "50001") ACCOUNT_NOT_EXIST`         
-
-- `("ACT002", "50002")ACCOUNT_IS_ALREADY_ENCRYPTED`
-
-- `("ACT003", "50003")ACCOUNT_EXIST`         
-
-- `("ACT004", "50004")ADDRESS_ERROR`         
-
-- `("ACT005", "50005") ALIAS_EXIST`        
-
-- `("ACT006", "50006")ALIAS_NOT_EXIST`         
-
-- `("ACT007", "50007") ACCOUNT_ALREADY_SET_ALIAS`        
-
-- `("ACT008", "50008")PARAMETER_ERROR`         
-
-- `("ACT009", "50009") DATA_PARSE_ERROR`        
-
-- `("ACT010", "50010")SUCCESS`         
-
-- `("ACT011", "50011") FAILED`        
-
-- `("ACT012", "50012")INSUFFICIENT_BALANCE`        
-
-- `("ACT013", "50013") ALIAS_ROLLBACK_ERROR`        
-
-- `("ACT014", "50014") ACCOUNTKEYSTORE_FILE_NOT_EXIST`        
-
-- `("ACT015", "50015") ACCOUNTKEYSTORE_FILE_DAMAGED`        
-
-- `("ACT016", "50016") ALIAS_FORMAT_WRONG`        
-
-- `("ACT017", "50017")PASSWORD_FORMAT_WRONG`
-
-- ```
-  ("LED001", "12001");UTXO is unable
-  ("LED002", "12002");UTXO status error
-  ("LED003", "12003");Lack of balance
-  ("LED004", "12004");Invalid input
-  ("LED005", "12005");Invalid input
-  ("LED006", "12006");Orphan transaction
-  ("LED007", "12007");Orphan block
-  ("LED008", "12008");Data not found
-  ("LED009", "12009");Tx fee is not right
-  ("LED0010", "120010");Rollback Transaction tx failed
-  ("LED0011", "120011");Transaction repeated
-  ("LED0012", "120012");The amount of the transfer is too small
-  ("LED0013", "120013");The transaction is too big
-
-  ("LEDGER002", "69981");Repeated transactions
-  ```
+("LEDGER002", "69981");Repeated transactions
+```

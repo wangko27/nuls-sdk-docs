@@ -43,4 +43,5 @@
   * [4.3 离线组装退出委托共识交易](consensus/quit_delgate_consensus_trx.md)
   * [4.4 离线组装删除共识节点交易](consensus/delete_consensus_trx.md)
   * [4.5 获取委托共识列表](consensus/get_consensus_nodes.md)
-* [附录](CONTENT.md)
+* [5 智能合约 ContractService](contract/README.md)
+* [- 附录和状态说明](CONTENT.md)
