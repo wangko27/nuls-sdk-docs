@@ -21,7 +21,7 @@
   * [1.16 设置离线账户密码](account/set_offline_account_password.md)
   * [1.17 修改离线账户密码](account/modfiy_offline_account_password.md)
 * [2 交易 AccountLedgerService](transaction/README.md)
-  * [2.1 创建账户](transaction/create_transfer_trx.md)
+  * [2.1 创建转账交易](transaction/create_transfer_trx.md)
   * [2.2 交易签名](transaction/trx_signature.md)
   * [2.3 根据交易hash查询交易详情](transaction/get_trx_by_hash.md)
   * [2.4 转账](transaction/transfer.md)
